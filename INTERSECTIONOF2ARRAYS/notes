@@ -1,0 +1,4 @@
+TIME_COMPLEXITY = O(n + m)
+SPACE_COMPLEXITY = O(n)
+ALGORITHM = Ek array ke elements ko HashSet me store karo,
+phir second array traverse karke check karo kaunse elements common hain.
