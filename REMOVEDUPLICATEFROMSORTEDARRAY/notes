@@ -1,0 +1,5 @@
+TIME_COMPLEXITY : O(n)
+SPACE_COMPLEXITY : O(1)
+APPROACH : Since the array is sorted, duplicates are adjacent.
+ We use two pointers where one pointer tracks the position of the last unique element and the other traverses the array. When a new unique element is found, it is placed next to the previous unique element. 
+The time complexity is O(n) and the space complexity is O(1)
