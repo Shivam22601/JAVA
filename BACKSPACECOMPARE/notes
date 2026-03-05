@@ -1,0 +1,6 @@
+TIME_COMPLEXITY = O(n + m)
+SPACE_COMPLEXITY = O(1)
+ALGORITHM = We traverse both strings from right to left using two pointers.
+ Whenever we encounter a #, we increase a skip counter to ignore the previous characters.
+  After skipping deleted characters, we compare the valid characters of both strings.
+ If they differ, we return false; otherwise we continue until both strings are processed.
