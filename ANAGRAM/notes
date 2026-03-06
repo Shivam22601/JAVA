@@ -1,0 +1,6 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+ALGORITHM = Instead of sorting which takes O(n log n), I used a frequency array of size 26. 
+I increment counts for the first string and decrement for the second in a single traversal.
+If all counts become zero, the strings are anagrams. 
+This reduces time complexity to O(n) with constant space.
