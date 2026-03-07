@@ -1,0 +1,3 @@
+TIME_COMPLEXITY = O(log n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Reverse the digits of the number and compare it with the original number. If both are equal, the number is a palindrome.
