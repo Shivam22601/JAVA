@@ -1,0 +1,3 @@
+TIME_COMPLEXITY : O(log n)
+TIME_COMPLEXITY : O(1)
+Approach: Number ka last digit (x % 10) nikaal kar usse rev = rev * 10 + digit se reverse number me add karte hain aur x = x / 10 se original number ko reduce karte rehte hain jab tak x = 0 na ho jaye.
