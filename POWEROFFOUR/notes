@@ -1,0 +1,4 @@
+TIME_COMPLEXITY = O(log n)
+SPACE_COMPLEXITY = O(1)
+approach : Power of 4 ka matlab hota hai number 4 × 4 × 4 ... se bana ho (jaise 4, 16, 64).
+Isliye hum number ko baar-baar 4 se divide karte hain. Agar divide karte-karte last me 1 mil jaye, to number power of 4 hai, warna nahi.
