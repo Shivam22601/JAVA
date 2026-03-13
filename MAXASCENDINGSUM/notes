@@ -1,0 +1,3 @@
+TIME_COMPLEXITY = O9(n)
+SPACE_COMPLEXITY = O(1)
+ALGORUTHM = Traverse the array and keep adding elements to currSum while the sequence is increasing; otherwise reset the sum and update maxSum.
