@@ -1,0 +1,4 @@
+TIME_COMPLEXITY =O(n)
+SPACE_COMPLEXITY =O(1)
+Approach: String ko end se traverse karo aur pehle trailing spaces skip karo.
+Fir characters count karte jao jab tak space na mile, wahi last word ki length hogi.
