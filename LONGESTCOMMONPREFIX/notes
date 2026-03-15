@@ -1,0 +1,4 @@
+TIME_COMPLEXITY : O(n x m)
+SPACE_COMPLEXITY : O(1)
+Approach: Take the first string as a reference and compare each of its characters with the characters at the same index in all other strings.
+When a mismatch occurs, return the substring from the start up to that index as the longest common prefix.
