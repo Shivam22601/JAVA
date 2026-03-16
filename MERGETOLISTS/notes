@@ -1,0 +1,4 @@
+TIME_COMPLEXITY : O(n+ m)
+SPACE_COMPLEXITY : O(1)
+APPROACH : Ek dummy node banate hain aur dono lists ko compare karke chhota node result list me add karte hain.
+Jab ek list khatam ho jaye to dusri list ke remaining nodes directly attach kar dete hain.
