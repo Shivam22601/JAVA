@@ -1,0 +1,11 @@
+TIME_COMPLEXITY = 
+push() → O(1)
+pop() → O(1)
+top() → O(1)
+getMin() → O(1)
+
+SPACE_COMPLEXITY = O(n)
+
+APPROACH: Ek normal stack aur ek minStack maintain karte hain.
+Jab bhi new element minimum ho to usko minStack me push kar dete hain,
+ isse minimum element O(1) me mil jata hai.
