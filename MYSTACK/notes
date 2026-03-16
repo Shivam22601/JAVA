@@ -1,0 +1,10 @@
+Time Complexity
+push() → O(n) (queue rotate karna padta hai)
+pop() → O(1)
+top() → O(1)
+empty() → O(1)
+
+Space Complexity
+O(n) (queue me n elements store hote hain)
+
+Approach: Queue me element insert karke queue ko rotate kar dete hain taaki latest element front par aa jaye aur stack ka LIFO behavior achieve ho
