@@ -1,0 +1,10 @@
+Time Complexity
+push() → O(1)
+pop() → O(1) amortized
+peek() → O(1) amortized
+empty() → O(1)
+
+Space Complexity
+O(n)
+
+Approach: Push elements s1 stack me store karte hain aur pop/peek ke time s1 ke elements ko s2 me reverse karke FIFO order maintain karte hain.
