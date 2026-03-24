@@ -1,0 +1,3 @@
+TIME_COMPLEXITY = O(n)
+TIME_COMPLEXITY = O(log n)
+APPROACH: Since the array is already sorted, the middle element is always picked as root — this ensures equal elements on both sides, keeping the BST height-balanced. Then the same logic is recursively applied on the left half to build the left subtree, and on the right half to build the right subtree, until the subarray becomes empty.
