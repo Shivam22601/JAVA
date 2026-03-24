@@ -1,0 +1,17 @@
+TIME_COMPLEXITY = O(n^2)
+SPACE_COMPLEXITY = O(k)
+Approach : Array sort karo
+Taaki two-pointer use kar sake
+Example: [-4, -1, -1, 0, 1, 2]
+Ek element fix karo (i loop)
+Har element ko first number maan lo
+Two Pointer lagao
+left = i + 1
+right = n - 1
+Sum check karo
+sum = nums[i] + nums[left] + nums[right]
+If sum == 0 → answer mil gaya 
+If sum < 0 → left++ (sum badhao)
+If sum > 0 → right-- (sum kam karo)
+Duplicates skip karo
+Same triplet repeat na ho
