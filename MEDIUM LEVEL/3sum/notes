@@ -15,3 +15,6 @@ If sum < 0 → left++ (sum badhao)
 If sum > 0 → right-- (sum kam karo)
 Duplicates skip karo
 Same triplet repeat na ho
+
+
+“We sort the array and fix one element, then use two pointers to find the remaining pair while skipping duplicates.”
