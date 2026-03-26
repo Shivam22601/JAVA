@@ -1,0 +1,4 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Sliding window use karo: right pointer se sum increase karo jab tak sum ≥ target na ho jaye.
+👉 Phir left pointer se window shrink karke minimum length update karo.
