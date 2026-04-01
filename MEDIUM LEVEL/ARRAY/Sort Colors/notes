@@ -1,0 +1,4 @@
+TIME_COMPLEXITY = O(n);
+SPACE_COMPLEXITY = O(1);
+APPROACH: Partition array into 3 parts (0s, 1s, 2s) using 3 pointers.
+Swap elements accordingly in a single pass to sort in-place
