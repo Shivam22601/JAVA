@@ -17,6 +17,7 @@ public class PivotIndex{
         return -1;
     }
 
+
     public static void main(String[] args) {
         PivotIndex pivoIndex = new PivotIndex();
         System.err.println("enter size of array : ");
