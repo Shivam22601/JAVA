@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Array traverse karo aur currSum me elements add karte jao.
+Har step par maxSum update karo (maximum value track karo).
+Agar currSum negative ho jaye to use 0 se reset kar do.
