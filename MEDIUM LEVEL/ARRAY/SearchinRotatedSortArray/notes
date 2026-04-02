@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(Log n)
+SPACE_COMPLEXITY =  O(1)
+APPROACH = Sorted array me middle element check karo.
+Agar target bada hai → right side jao, chhota hai → left side jao.
+Jab tak mil na jaye ya search space khatam na ho jaye, repeat karo.
