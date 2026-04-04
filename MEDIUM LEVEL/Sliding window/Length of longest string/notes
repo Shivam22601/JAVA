@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(n)
+APPROACH = Use sliding window with two pointers
+Remove duplicates by moving left
+Update max length for every valid window
