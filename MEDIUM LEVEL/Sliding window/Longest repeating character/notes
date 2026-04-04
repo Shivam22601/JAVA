@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Sliding window use karo aur har character ki frequency track karo (array/map se).
+Window tab tak valid hai jab (window size - maxFreq) ≤ k ho, warna left pointer move karo.
+Har step pe maximum window size update karo — wahi answer hoga.
