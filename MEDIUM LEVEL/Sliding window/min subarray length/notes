@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Sliding window use karke right pointer se sum build karo.
+Jab sum ≥ target ho, left pointer move karke window shrink karo aur min length update karo.
+Pura array traverse karke minimum valid window return karo (warna 0).
