@@ -1,0 +1,5 @@
+TIME_COMPLEXITY : O(n)
+SPACE_COMPLEXITY : O(1)
+APPROACH :s1 ka frequency array bana lo (26 size).
+s2 me window size = s1.length() rakh ke sliding window chalao.
+Har step pe window ka freq compare karo, match mila → return true.
