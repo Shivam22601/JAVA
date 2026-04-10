@@ -1,0 +1,3 @@
+TIME_COMPLEXITY = O(n^2)
+SPACE_COMPLEXITY = O(1)
+APPROACH = use expand around center. For each index, I check both odd and even length palindromes. This gives O(n²) time and O(1) space.
