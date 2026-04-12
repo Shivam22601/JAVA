@@ -1,0 +1,6 @@
+TIME_COMPLEXITY:O(max(n, m))
+SPACE_COMPLEXITY:O(max(n, m))
+APPROACH: 
+Traverse both linked lists simultaneously, add corresponding digits along with a carry value.
+For each sum, store sum % 10 as the digit and update carry = sum / 10, then create a new node in the result list
+Continue until both lists and carry are finished, and return the result starting from the dummy node’s next.
