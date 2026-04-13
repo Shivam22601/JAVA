@@ -1,0 +1,11 @@
+TIME_COMPLEXITY : O(n)
+SPACE_COMPLEXITY : O(1)
+APPROACH :
+Use two pointers:
+slow → moves 1 step
+fast → moves 2 steps
+If they meet → cycle exists
+Then:
+Move one pointer to head
+Move both 1 step at a time
+Where they meet again → cycle start node
