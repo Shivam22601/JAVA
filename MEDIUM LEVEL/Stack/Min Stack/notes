@@ -1,0 +1,6 @@
+TIME_COMPLEXITY = o(1)
+SPACE_COMPLEXITY = o(1)
+APPROACH = One stack → normal values
+Second stack → track minimums
+
+👉 Min stack always stores the current minimum at each step
