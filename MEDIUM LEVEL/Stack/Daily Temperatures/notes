@@ -1,0 +1,7 @@
+TIME_COMPLEXITY : O(N)
+SPACE_COMPLEXITY : O(N)
+APPROACH : Use a stack to store indices of temperatures
+Traverse from left to right
+For each day:
+While current temp > stack top temp → pop and calculate result
+Push current index into stack
